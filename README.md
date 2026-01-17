@@ -145,7 +145,7 @@ cd  Cricket Championship Simulator
 
 You can view the live version of the website here:  
 
-👉 []()
+👉 [https://mohamed-asif-1000.github.io/Cricket-Championship-Simulator/](https://mohamed-asif-1000.github.io/Cricket-Championship-Simulator/)
 
 ---
 
