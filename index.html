@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Championship Match</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card-container">
+        <h1>🏏 Cricket Tournament Simulator 🏆</h1>
+
+        <!-- Input Stage-->
+         <div id="inputStage">
+            <h2>Enter 16 Teams to Participate</h2>
+            <div id="inputTeams"></div>
+            <button id="startMatchButton">Start Tournament</button>
+         </div>
+
+        <!-- Group Stage-->
+         <div id="matchStage" style="display: none;">
+            <h2 id="matchStageTitle">Group Match</h2>
+            <div id="matchContainer"></div>
+            <button id="matchStageButton">Submit Scores</button>
+         </div>
+
+        <!-- Scoreboard Display-->
+          <div id="scoreboardStage" style="display: none;">
+            <h2 id="scoreboardTitle">Scoreboard of Matches</h2>
+            <div id="scoreboardContainer"></div>
+            <button id="scoreboardButton">Submit Next Stage</button>
+          </div>
+        <!-- Winner Display -->
+         <div id="winnerStage" style="display: none;">
+            <h2>🏆 Champion: <span id="winnerName"></span> 🏆</h2>
+            <div id="winnerScoreboard"></div>
+         </div>
+        
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

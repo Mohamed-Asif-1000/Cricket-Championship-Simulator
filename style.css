@@ -1,0 +1,148 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  color: #fff;
+  text-align: center;
+  background: linear-gradient(to bottom, #0d47a1, #42a5f5);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  border: 3px solid #ff9800;
+  max-width: 750px;
+  min-height: 500px;
+  padding: 40px;
+  margin: auto;
+  background-color: #0d177ed9;
+  border-radius: 20px;
+  box-shadow: 0px 20px 25px #00000077;
+}
+
+h1 {
+  color: #ffd700;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px #00008b;
+}
+
+h2 {
+  color: #ff9800;
+  margin-bottom: 15px;
+  text-shadow: 1px 1px #0d47a1;
+}
+
+input {
+  width: 170px;
+  height: 30px;
+  color: #fff;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 8px;
+  border: 2px solid #ffd700;
+  transition: all 0.3s;
+  font-weight: bold;
+  text-align: center;
+  background-color: #ffffff1a;
+}
+
+input::placeholder {
+  color: #e0e0e0;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 12px;
+  border-radius: 15px;
+  border: none;
+  background: linear-gradient(135deg, #ffd700, #ffb74d);
+  color: #0d47a1;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s;
+  box-shadow: 0 5px 15px #00000033;
+}
+
+button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px #00000033;
+}
+
+/* Specific styling for the Input Stage container */
+#inputTeams {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Match input container */
+.match-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1a237eaa;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.match-row label {
+  width: 100px;
+}
+
+.match-inputs {
+  display: flex;
+  gap: 10px;
+}
+
+.match-inputs input {
+  width: 70px;
+}
+
+/* Scoreboard Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ffd700;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #ff9800;
+  color: #0d47a1;
+  font-weight: bold;
+}
+
+td {
+  background-color: #ffffff1a;
+}
+
+/* Scoreboard container scrollbar */
+#scoreboardContainer {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+/* Winner Stage styling */
+#winnerStage h2 {
+  background: transparent;
+  color: yellow;
+  font-size: 28px;
+  text-shadow: 2px 2px #00008b;
+}
+
+#winnerName {
+    color: #ff7b00;
+    font-size: 30px;
+    font-weight: 900;
+}
